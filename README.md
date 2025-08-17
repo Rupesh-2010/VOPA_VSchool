@@ -1,18 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>V-School Assignment API Documentation</title>
-  <style>
-    body { font-family: Arial, sans-serif; line-height: 1.6; margin: 20; max-width: 900; }
-    h1, h2, h3 { color: #2c3e50; }
-    pre { background: #f4f4f4; padding: 10; border-radius: 4; overflow-x: auto; }
-    code { font-family: monospace; }
-    ul { margin-bottom: 20; }
-  </style>
-</head>
-<body>
+
   <h1>V-School Assignment API</h1>
   <p>This Flask-based API enables an edtech platform (V-School) to manage lesson assignments between teachers and students. Teachers can assign lessons, track completion status, and students can view and mark their assigned lessons as completed.</p>
 
