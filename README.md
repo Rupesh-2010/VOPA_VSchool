@@ -18,34 +18,6 @@
     <li><strong>GET /api/assignments/teacher/&lt;teacher_id&gt;</strong><br />View all assignments created by a teacher, with completion info.</li>
   </ul>
 
-  <h2>Request &amp; Response Example</h2>
-  <h3>Assign lessons (POST /api/assignments)</h3>
-  <p><strong>Request Body (JSON):</strong></p>
-  <pre><code>{
-  "lessonId": "lesson123",
-  "studentIds": ["studentA", "studentB"],
-  "teacherId": "teacherX",
-  "dueDate": "2025-08-30T23:59:59Z",
-  "note": "Complete this before the next class"
-}</code></pre>
-
-  <p><strong>Successful Response:</strong></p>
-  <pre><code>{
-  "assignments": [
-    {
-      "_id": "64de1234abcd5678ef901234",
-      "lessonId": "lesson123",
-      "studentId": "studentA",
-      "teacherId": "teacherX",
-      "status": "assigned",
-      "assignedAt": "2025-08-17T09:30:00Z",
-      "completedAt": null,
-      "dueDate": "2025-08-30T23:59:59Z",
-      "note": "Complete this before the next class"
-    },
-    ...
-  ]
-}</code></pre>
 
   <h2>Getting Started</h2>
   <ol>
