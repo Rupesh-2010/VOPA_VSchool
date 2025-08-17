@@ -5,11 +5,11 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>V-School Assignment API Documentation</title>
   <style>
-    body { font-family: Arial, sans-serif; line-height: 1.6; margin: 20px; max-width: 900px; }
+    body { font-family: Arial, sans-serif; line-height: 1.6; margin: 20; max-width: 900; }
     h1, h2, h3 { color: #2c3e50; }
-    pre { background: #f4f4f4; padding: 10px; border-radius: 4px; overflow-x: auto; }
+    pre { background: #f4f4f4; padding: 10; border-radius: 4; overflow-x: auto; }
     code { font-family: monospace; }
-    ul { margin-bottom: 20px; }
+    ul { margin-bottom: 20; }
   </style>
 </head>
 <body>
